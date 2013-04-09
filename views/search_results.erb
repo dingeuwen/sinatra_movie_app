@@ -1,0 +1,10 @@
+<h1> You searched for the movie <%= @title %> </h1>
+
+<% @results["Search"].each do |result| %>
+
+<div>
+  <p> <a href="/search_results/<%= result["imdbID"] %>"> <%= result["Title"] %> </a></p>
+
+</div>
+
+<% end %>

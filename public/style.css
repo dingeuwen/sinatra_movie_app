@@ -1,0 +1,15 @@
+.home_page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  min-height: 5em;
+  vertical-align: middle;
+}
+
+.text_to_center {
+  text-align: center;
+}
+
+.home_page_body {
+  background-color:#CBE5FF;
+}
